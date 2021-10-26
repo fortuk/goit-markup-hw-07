@@ -10,6 +10,18 @@
 }
 .adress {
   margin-right: 70px;
+  &__logo {
+    margin-bottom: 20px;
+  }
+  &__links {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  &__first-word {
+    color: $accent-color;
+  }
   &__list {
     text-transform: capitalize;
     font-style: normal;
@@ -45,17 +57,5 @@
     &:hover {
       color: $accent-color;
     }
-  }
-}
-.logo {
-  margin-bottom: 20px;
-  &__link {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-  }
-  &__first-word {
-    color: $accent-color;
   }
 }
